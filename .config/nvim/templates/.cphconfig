@@ -1,0 +1,12 @@
+{
+  "editor": {
+    "command": "nvim",
+    "args": ["{filename}"]
+  },
+  "codeforces": {
+    "language": "cpp",
+    "cpp": {
+      "template": "/home/seif/.config/nvim/templates/cp_template.cpp"
+    }
+  }
+}

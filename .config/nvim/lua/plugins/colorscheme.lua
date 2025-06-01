@@ -1,16 +1,13 @@
 return {
-  {
-    "catppuccin/nvim",
-    lazy = false,
-    name = "catppuccin",
-    priority = 1000,
+  "ellisonleao/gruvbox.nvim",
+  lazy = false,
+  name = "gruvbox",
+  priority = 1000,
 
-    config = function()
-      require("catppuccin").setup({
-        flavour = "mocha",
-        transparent_background = true,
-      })
-      vim.cmd.colorscheme("catppuccin")
-    end,
-  },
+  config = function()
+    require("gruvbox").setup({
+      terminal_colors = true,
+    })
+    vim.cmd.colorscheme("gruvbox")
+  end,
 }
